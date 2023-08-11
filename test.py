@@ -1,6 +1,14 @@
 # A hello world function
 
 def hello():
-    print("hello world!")
+    print("Hello world!")
 
 hello()
+
+name = input('Please tell me your name: ')
+
+def morning():
+    print(f'Good morning {name}')
+
+morning()
+
